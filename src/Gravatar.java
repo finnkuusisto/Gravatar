@@ -103,7 +103,7 @@ public class Gravatar {
 	 * @param size size of image in pixels [1-512], 0 for default size
 	 */
 	public void setSize(int size) {
-		if (size >= 0 && size < 512) {
+		if (size >= 0 && size <= 2048) {
 			this.size = size;
 		}
 	}
